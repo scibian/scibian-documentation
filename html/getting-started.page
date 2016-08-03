@@ -1,0 +1,89 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:ui="http://projectmallard.org/experimental/ui/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="guide" style="task"
+      id="getting-started.page" xml:lang="en">
+  <info>
+    <revision version="1.1" date="2015-07-09" status="stub"/>
+
+    <credit type="author copyright">
+      <name>Copyright Scibian Project</name>
+      <email>legal@scibian.org</email>
+      <years>2016</years>
+    </credit>
+
+    <desc>Scibian 8 First Steps</desc>
+    <title type="text">Scibian 8 First Steps</title>
+  </info>
+
+  <section id="docs">
+    <title>Welcome to your Scibian</title>
+    <table>
+      <tr>
+        <td>
+          <title>Working environment documentation :</title>
+        </td>
+      </tr> 
+      <tr>
+        <td>
+          <title style="center"><media height="80" width="80" src="/usr/share/icons/scibian/scalable/gnome-logo.svg"/></title>
+        </td>
+        <td>
+          <note style ="tip"><title style="center"><link href="file:///usr/share/help/C/gnome-help/getting-started.page">Discover your new desktop !</link></title></note>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <title>Scibian 8 specificities :</title>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <title style="center"><media height="80" width="80" src="/usr/share/icons/scibian/scalable/s8_small.svg"></media></title>
+        </td>
+        <td>
+          <note style ="tip"><title><link href="file:///usr/share/doc/scibian-documentation/html/documentation.page">Access all Scibian documentation online</link></title></note>
+        </td>
+      </tr> 
+     
+    </table>
+  </section>
+
+  <section id="howtodoc">
+    <title>To find all documentation :</title>
+
+    <ui:overlay width="235" height="145">
+    <media type="video" its:translate="no" src="/usr/share/help/C/gnome-help/figures/gnome-launching-applications.webm" width="700" height="394">
+      <ui:thumb type="image" mime="image/svg" src="/usr/share/help/C/gnome-help/gs-thumb-launching-apps.svg">
+        <ui:caption its:translate="yes"><desc style="center">How to launch help</desc></ui:caption>
+      </ui:thumb>
+        <tt:tt xmlns:tt="http://www.w3.org/ns/ttml" its:translate="yes">
+         <tt:body>
+           <tt:div begin="1s" end="5s">
+             <tt:p>Launching Scibian 8's help</tt:p>
+           </tt:div>
+           <tt:div begin="5s" end="7s">
+             <tt:p>Move your mouse pointer to the Activities corner at the top left of the screen.</tt:p>
+             </tt:div>
+           <tt:div begin="7s" end="9s">
+             <tt:p>Click on "Show Applications" icon.</tt:p>
+           </tt:div>
+           <tt:div begin="9s" end="11s">
+             <tt:p>Clic on icon shaped buoy named "Help" or "Scibian documentation"</tt:p>
+           </tt:div>
+           <tt:div begin="12s" end="21s">
+             <tt:p>You can also open the Activities overview by pressing "Windows" key on keyboard.</tt:p>
+           </tt:div>
+           <tt:div begin="22s" end="29s">
+             <tt:p>Start typing the name of the application you want to launch. For exemple "Help".</tt:p>
+           </tt:div>
+           <tt:div begin="30s" end="33s">
+             <tt:p>Press <key>Enter</key> key to launch the application.</tt:p>
+           </tt:div>
+         </tt:body>
+       </tt:tt>
+    </media>
+    </ui:overlay>
+
+  </section>
+</page>

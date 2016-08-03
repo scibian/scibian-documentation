@@ -1,0 +1,26 @@
+#!/bin/sh
+
+flag=~/.config/scibian-getting-started-disabled
+
+if [ -f "$flag" ]; then
+    exit 0
+fi
+
+page="/usr/share/doc/scibian-documentation/html/getting-started.page"
+
+yelp "$page" &
+
+while [ -z "$(xwit -print -names 'Scibian 8 First Steps')" ]; do
+    sleep 0.1
+done
+
+xwit -resize 780 820 -focus -names 'Scibian 8 First Steps'
+wait
+
+title='Scibian firsts steps guide'
+text='Should the guide will be started\nupon next login ?'
+ok_label='Start again'
+
+if ! zenity --question --title "$title" --text "$text" --ok-label "$ok_label"; then
+    touch "$flag"
+fi

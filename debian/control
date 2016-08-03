@@ -1,0 +1,11 @@
+Source: scibian-documentation
+Section: documentation
+Priority: extra
+Maintainer: Scibian Packaging Team <packaging@scibian.org>
+Build-Depends: debhelper (>= 9.0.0)
+Standards-Version: 3.9.6
+
+Package: scibian-documentation
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, yelp, gnome-user-guide, xwit
+Description: User documentation to start with Scibian 8

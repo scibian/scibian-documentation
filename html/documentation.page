@@ -1,0 +1,36 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="guide" style="task"
+      id="documentation.page" xml:lang="en">
+  <info>
+    <revision version="1.1" date="2015-07-17" status="stub"/>
+
+    <credit type="author copyright">
+      <name>Copyright Scibian Project</name>
+      <email>legal@scibian.org</email>
+      <years>2016</years>
+    </credit>
+
+    <desc>Scibian 8 users' guide</desc>
+    <title type="link">Scibian 8 users' guide</title>
+    <title type="text">Scibian 8 users' guide</title>
+  </info>
+
+    <title><media its:translate="no" type="image" src="/usr/share/icons/scibian/scalable/s8.svg"><span its:translate="yes">Logo de Yelp</span></media>Scibian 8 users' guide</title>
+
+  <section id="s8webdoc">
+    <title>Scibian 8 online documentation</title>
+    <p>
+      Complete documentation of Scibian 8 is available online :
+      <link href="https://wiki.scibian.org/index.php/scibian8">Scibian 8 online documentation</link>
+    </p>
+  </section>
+    
+  <section id="gnomedoc">
+    <title>Gnome documentation</title>
+    <p>
+      See alse the official Gnome desktop documentation :
+      <link href="file:///usr/share/help/C/gnome-help/index.page">Gnome documentation</link>
+    </p>
+  </section>
+</page>

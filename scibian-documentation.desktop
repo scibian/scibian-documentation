@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Scibian User Guide
+Comment=Scibian 8 Documentation - Linux Distribution for Scientific Computing
+Icon=/usr/share/icons/scibian/png/scibian-documentation.png
+Exec=yelp /usr/share/doc/scibian-documentation/html/documentation.page
+Terminal=false
+Type=Application
+Keywords=help;aide;scibian
+Categories=Application
+X-KDE-autostart-after=knotify4
+X-KDE-UniqueApplet=true

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Getting Started with Scibian
+Comment=Scibian firsts steps screen.
+Exec=/usr/bin/wrapper-getting-started
+Terminal=false
+Icon=/usr/share/icons/scibian/png/scibian-documentation.png
+Categories=GNOME;Application;Scibian;help;aide
+AutostartCondition=unless-exists scibian-getting-started-disabled
