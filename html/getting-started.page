@@ -39,7 +39,7 @@
       </tr>
       <tr>
         <td>
-          <title style="center"><media height="80" width="80" src="/usr/share/icons/scibian/scalable/s8_small.svg"></media></title>
+          <title style="center"><media height="120" width="120" src="/usr/share/icons/scibian/scalable/s8.svg"></media></title>
         </td>
         <td>
           <note style ="tip"><title><link href="file:///usr/share/doc/scibian-documentation/html/documentation.page">Access all Scibian documentation online</link></title></note>

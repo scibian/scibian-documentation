@@ -1,3 +1,11 @@
+scibian-documentation (8.1) jessie; urgency=medium
+
+  * Corrected typos.
+  * Corrected documentation URL.
+  * Added Scibian logo.
+
+ -- Alexis Bezverkhyy <alexis.bezverkhyy@edf.fr>  Thu, 29 Sep 2016 19:22:40 +0200
+
 scibian-documentation (8.0) jessie; urgency=low
 
   * Initial release.

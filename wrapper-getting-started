@@ -17,10 +17,11 @@ done
 xwit -resize 780 820 -focus -names 'Scibian 8 First Steps'
 wait
 
-title='Scibian firsts steps guide'
-text='Should the guide will be started\nupon next login ?'
+title='Scibian first steps guide'
+text='Should the guide be started\nupon next login?'
 ok_label='Start again'
+cancel_label='No'
 
-if ! zenity --question --title "$title" --text "$text" --ok-label "$ok_label"; then
+if ! zenity --question --title "$title" --text "$text" --cancel-label "$cancel_label" --ok-label "$ok_label"; then
     touch "$flag"
 fi

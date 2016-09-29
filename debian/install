@@ -3,3 +3,4 @@ scibian-documentation.png  /usr/share/icons/scibian/png
 getting-started.desktop /etc/xdg/autostart
 wrapper-getting-started /usr/bin
 gnome-logo.svg /usr/share/icons/scibian/scalable
+s8.svg /usr/share/icons/scibian/scalable
