@@ -16,13 +16,13 @@
     <title type="text">Scibian 8 users' guide</title>
   </info>
 
-    <title><media its:translate="no" type="image" src="/usr/share/icons/scibian/scalable/s8.svg"><span its:translate="yes">Logo de Yelp</span></media>Scibian 8 users' guide</title>
+    <title><media its:translate="no" type="image" width="100" src="/usr/share/icons/scibian/scalable/s8.svg"><span its:translate="yes">Logo de Yelp</span></media>Scibian 8 users' guide</title>
 
   <section id="s8webdoc">
     <title>Scibian 8 online documentation</title>
     <p>
       Complete documentation of Scibian 8 is available online :
-      <link href="https://wiki.scibian.org/index.php/scibian8">Scibian 8 online documentation</link>
+      <link href="https://scibian.org/docs.html">Scibian 8 online documentation</link>
     </p>
   </section>
     
